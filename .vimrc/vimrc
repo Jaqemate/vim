@@ -1,0 +1,38 @@
+  1 set nocompatible              " be iMproved, required
+  2 filetype off                  " required
+  3 set number
+  4 syntax on
+  5 
+  6 " set the runtime path to include Vundle and initialize
+  7 set rtp+=~/.vim/bundle/Vundle.vim
+  8 call vundle#begin()
+  9 " alternatively, pass a path where Vundle should install plugins
+ 10 "call vundle#begin('~/some/path/here')
+ 11 
+ 12 " let Vundle manage Vundle, required
+ 13 Plugin 'VundleVim/Vundle.vim'
+ 14 
+ 15 " The following are examples of different formats supported.
+ 16 " Keep Plugin commands between vundle#begin/end.
+ 17 " plugin on GitHub repo
+ 18 Plugin 'preservim/nerdtree'
+ 19 Plugin 'reedes/vim-wheel'
+ 20 Plugin 'preservim/nerdcommenter'
+ 21 Plugin 'tpope/vim-fugitive'
+ 22 
+ 23 " All of your Plugins must be added before the following line
+ 24 call vundle#end()            " required
+ 25 filetype plugin indent on    " required
+ 26 " To ignore plugin indent changes, instead use:
+ 27 "filetype plugin on
+ 28 "
+ 29 " Brief help
+ 30 " :PluginList       - lists configured plugins
+ 31 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+ 32 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
+ 33 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+ 34 "
+ 35 " see :h vundle for more details or wiki for FAQ
+ 36 " Put your non-Plugin stuff after this line
+ 37 
+
